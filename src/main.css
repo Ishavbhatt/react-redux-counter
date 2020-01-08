@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.first {
+  display: flex;
+}
+body {
+  background-color: #f3f3f3;
+}
+
+.buttons {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 5px;
+  margin: 3px;
+}
+
+.number {
+  padding: 1rem;
+  font-size: 40px;
+  text-shadow: 2px 3px tomato;
+}
+body {
+  background-color: #f3f3f3;
+}
+.plus-button {
+  padding: 0.5rem 2rem;
+}
+
+.counter-div {
+  background-color: #ffffff;
+  max-width: 400px;
+  padding: 2rem;
+  box-shadow: 2px 4px 5px 10px #888888;
+}
+.step-max-div {
+  padding-top: 2rem;
+}
+.step-max {
+  font-size: 20px;
+  color: tomato;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.buttons {
+  color: aqua;
+  border-radius: 2rem;
+  padding: 10px;
+  border: 1px solid aqua;
+  background-color: #fff;
+  font-size: 1rem;
+}
+.buttons:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.incbtn {
+  margin: 0 3px;
+
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: black;
+  box-shadow: 2px 2px #ff0000;
+}
+.incbtn:focus {
+  background-color: white;
+  color: rgb(211, 27, 42);
+}
+h1 {
+  text-shadow: 2px 2px #ff0000;
+  font-size: 40px;
+  font-weight: 100;
+}
